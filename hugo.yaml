@@ -1,0 +1,48 @@
+baseURL: https://ahlstedt.xyz/
+languageCode: en-us
+title: Adventures in tech
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+
+pagination:
+  pagerSize: 5
+
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 4
+
+params:
+  author: Rickard Ahlstedt
+  showReadingTime: true
+  dateFormat: "Jan 2, 2006"
+  disableShareButtons: true
+  disableComments: true
+  showBreadcrumbs: true
+  showArchivesLink: true
+
+  cover:
+    hidden: false
+    hiddenInList: false
