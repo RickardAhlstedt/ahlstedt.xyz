@@ -17,32 +17,72 @@ taxonomies:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 1
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 2
+      weight: 1
     - identifier: projects
       name: Projects
       url: /projects/
+      weight: 2
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 3
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 4
+  footer:
+    - identifier: kb
+      name: Knowledge Bank
+      url: /kb/
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
 
 params:
   author: Rickard Ahlstedt
-  showReadingTime: true
+  showReadingTime: false
   dateFormat: "Jan 2, 2006"
   disableShareButtons: true
   disableComments: true
   showBreadcrumbs: true
   showArchivesLink: true
+  showCodeCopyButtons: true
 
   cover:
     hidden: false
     hiddenInList: false
+    hiddenInSingle: false
+  
+  editPost:
+    URL: "https://github.com/RickardAhlstedt/ahlstedt.xyz/tree/main/content"
+    text: "Suggest changes"
+    appendFilePath: true
+
+  imaging:
+    defaultQuality: 80
+    resampleFilter: lanczos
+
+  homeInfoParams:
+    Title: "Welcome to my blog 👋"
+    Content: "Adventures in tech"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/RickardAhlstedt"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/rickard-ahlstedt-xyz"
+    - name: "buymeacoffee"
+      url: "https://buymeacoffee.com/ahlstedt"
