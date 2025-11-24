@@ -10,10 +10,10 @@ categories: ["project", "keyboard"]
 draft: false
 # weight: 1
 cover:
-    image: projects/Array54/images/splash.jpg
+    image: projects/array54/images/splash.jpg
 ---
 
-![](/projects/Array54/images/splash.jpg)
+![](/projects/array54/images/splash.jpg)
 
 ## Array-54 Overview
 
@@ -30,12 +30,12 @@ The Array-54 is a take on creating a productivity-focused split keyboard with fo
 The Array-54 draws inspiration from the nordic landscape, with soft-edges derived from how tree-trunks adapt to their surrounding.  
 This makes the keyboard feel more natural, whilst keeping a slim look.
 
-![](/projects/Array54/images/money_shot.jpg)
+![](/projects/array54/images/money_shot.jpg)
 
 The column-stagger was a natural decision, as pro-longed writing with row-staggered keyboards can lead to RSI due to the excessive movements done. This layout combats that with perfectly aligned rows and by staggering the columns the matrix follows the reach of each finger more naturally.  
 Allowing each finger to control their respective column, limiting the rotation needed on the wrist and making it more comfortable for pro-longed sessions.
 
-![](/projects/Array54/images/top_down.jpg)
+![](/projects/array54/images/top_down.jpg)
 
 The surfaces are clean to give a sense of clarity and minimalism, blending in with the rest of your deskarea, without standing out too much.
 
@@ -53,7 +53,7 @@ The surfaces are clean to give a sense of clarity and minimalism, blending in wi
 With the cost of the overall thickness of the board, it will be worth adding 1-2mm in height of the volume inside of the case, so it can accommodate 16-18 awg solid wire for the matrix.
 Alternatively use of low-profile switches might suffice if the requirement of a total height of 11mm is desired.
 
-![](/projects/Array54/images/wiring_both.jpg)
+![](/projects/array54/images/wiring_both.jpg)
 *The blue-wire is thicker and makes the right half much more rigid*
 
 ### Support for hot plugging

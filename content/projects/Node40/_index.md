@@ -9,14 +9,18 @@ tags: ["split-keyboard", "ergonomics", "3d-printing", "node40", "kmk"]
 categories: ["project", "keyboard"]
 draft: false
 # weight: 1
+cover:
+    image: projects/node40/images/splash.jpg
 ---
+
+![](/projects/node40/images/splash.jpg)
 
 ## Node40 Overview
 
 The Node40 is an experiment in minimalistic design with portability in mind
 
 ### Key Features
-- Low-profile, case is only 9mm thick
+- Low-profile, case is only 11mm thick
 - Split design for better ergonomics
 - 3D printed case with multiple layout options
 
