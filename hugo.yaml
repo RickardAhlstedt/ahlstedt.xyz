@@ -86,3 +86,7 @@ params:
       url: "https://www.linkedin.com/in/rickard-ahlstedt-xyz"
     - name: "buymeacoffee"
       url: "https://buymeacoffee.com/ahlstedt"
+  
+  analytics:
+    google:
+      trackingCode: "G-2DZR7KWRZK"
