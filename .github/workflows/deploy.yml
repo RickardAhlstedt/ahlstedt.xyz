@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Add manual trigger for testing
 
 jobs:
   deploy:
@@ -18,8 +19,25 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       
+      - name: Debug - Check submodules
+        run: |
+          echo "=== Git submodule status ==="
+          git submodule status
+          echo "=== Themes directory ==="
+          ls -la themes/
+          echo "=== PaperMod directory (if exists) ==="
+          ls -la themes/PaperMod/ || echo "PaperMod directory not found"
+          echo "=== .gitmodules content ==="
+          cat .gitmodules || echo "No .gitmodules file"
+      
       - name: Update submodules
         run: git submodule update --init --recursive
+      
+      - name: Debug - Check after submodule update
+        run: |
+          echo "=== After submodule update ==="
+          git submodule status
+          ls -la themes/PaperMod/ || echo "PaperMod still not found"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
