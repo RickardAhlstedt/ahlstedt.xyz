@@ -60,6 +60,7 @@ params:
   showBreadcrumbs: true
   showArchivesLink: true
   showCodeCopyButtons: true
+  ShowPostNavLinks: true
 
   cover:
     hidden: false
@@ -79,6 +80,9 @@ params:
     Title: "Welcome to my blog 👋"
     Content: "Adventures in tech"
 
+  mainSections: 
+    - posts
+
   socialIcons:
     - name: "github"
       url: "https://github.com/RickardAhlstedt"
@@ -90,3 +94,4 @@ params:
   analytics:
     google:
       trackingCode: "G-2DZR7KWRZK"
+
