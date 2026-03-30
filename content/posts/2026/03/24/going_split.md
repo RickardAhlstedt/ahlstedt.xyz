@@ -22,7 +22,7 @@ As luck would have it, a friend of mine had one he wasn’t using and offered to
 
 ## The struggle
 
-At the beginning, I had quite a bit of trouble using it. After many years of *incorrectly* using a row-staggered keyboard, I had learned to touch type (albeit imperfectly) fairly efficiently—but at the cost of wrist pain and poor posture.  
+At the beginning, I had quite a bit of trouble using it. After many years of *incorrectly* using a row-staggered keyboard, I had learned to touch type (albeit imperfectly) fairly efficiently — but at the cost of wrist pain and poor posture.  
 I tend to angle my wrists inward, and naturally, my arms and shoulders followed.
 
 The first challenge was simply placing my hands correctly on the halves. After some time (and switching to a keycap set with legends), it started to feel more natural. My fingers began to land on their intended columns.
@@ -64,7 +64,7 @@ As for productivity, it eventually returned to normal—even though I’m still 
 
 - Keymapping is incredibly important and should be tailored to you.
 - Letting the thumbs take on more responsibility was a challenge. I still make mistakes, but the strain on my pinkies is significantly lower.
-- Posture matters - a lot. Having the right keyboard setup is crucial when you spend 8+ hours a day at a screen.
+- Posture matters — a lot. Having the right keyboard setup is crucial when you spend 8+ hours a day at a screen.
 - Typing becomes more natural once your muscle memory is retrained.
 - I’ve become more aware of inefficient habits, especially how I used my pinkies.
 
@@ -79,4 +79,8 @@ As for productivity, it eventually returned to normal—even though I’m still 
 We spend so much time optimizing how our tools work, but rarely how we work *with* them.
 
 I didn’t switch because I was in pain. I switched because I was curious.  
-But I stayed—because everything else started to feel wrong.
+But I stayed — because everything else started to feel wrong.
+
+## Addendum
+
+I recently switched back to my trusty DasKeyboard MacTigr at work, and it wasn't long before I experienced pain in my wrists, mostly due (to what I believe) that I move and angle my wrists more than using an col-staggered keyboard.
